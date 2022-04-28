@@ -22,7 +22,7 @@ class MyAnalyticsDashBoard extends React.Component {
     <AnalyticsDashboard
       authOptions={{
         clientId:
-          "798387791418-1q56un70liaijau2sgl16014b4rdhoq2.apps.googleusercontent.com",
+          "647763592563-041vtakasol9jju6o7c0igso756ead2e.apps.googleusercontent.com",
       }}
       renderCharts={(gapi, viewId) => {
         const chartStyles = {
