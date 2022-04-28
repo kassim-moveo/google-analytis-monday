@@ -11,8 +11,8 @@
 
 <!-- Step 1: Create the containing elements. -->
 
-<section id="auth-button"></section>
-<section id="view-selector"></section>
+<section style="color:beige" id="auth-button"></section>
+<section style="color:beige" id="view-selector"></section>
 <section id="timeline"></section>
 
 <!-- Step 2: Load the library. -->
@@ -49,9 +49,9 @@ gapi.analytics.ready(function() {
     reportType: 'ga',
     query: {
       'dimensions': 'ga:date',
-      'metrics': 'ga:sessions',
-      'start-date': '30daysAgo',
-      'end-date': 'yesterday',
+      'metrics': 'ga:users',
+      'start-date': '7daysAgo',
+      'end-date': 'today',
     },
     chart: {
       type: 'LINE',
