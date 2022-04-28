@@ -1,11 +1,11 @@
 import React from "react";
-import "./App.css";
 
-function App () {
+import MyAnalyticsDashBoard from "./MyAnalyticsDashBoard";
 
-    return <div className="App">
-      </div>;
-  
+function App() {
+  return (
+    <MyAnalyticsDashBoard/>
+  );
 }
 
 export default App;
