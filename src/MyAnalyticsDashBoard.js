@@ -11,7 +11,7 @@ class MyAnalyticsDashBoard extends React.Component {
     
     this.interval = setInterval( () => {
       return this.setState({ time: Date.now() })
-    }, 1000*60);
+    }, 1000*3);
   }
   componentWillUnmount() {
     clearInterval(this.interval);
